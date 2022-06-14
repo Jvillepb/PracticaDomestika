@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
+  <head>
+    <title>Audios</title>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Montserrat:300,400,700%7CPoppins:300,400,500,700,900">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!---Reproductor de audio--->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/js/sdk.js"></script>
+    <link rel="stylesheet" href="css/DSSinglePlayer.css" />
+    <link rel="stylesheet" href="css/audios.css" />
+    <!--Hasta acá-->
+    <style>.ie-panel{display: none;background: #212121;padding: 10px 0;box-shadow: 3px 3px 5px 0 rgba(0,0,0,.3);clear: both;text-align:center;position: relative;z-index: 1;} html.ie-10 .ie-panel, html.lt-ie-10 .ie-panel {display: block;}
+    table, tr, td {
+}
+    
+    body{
+    background: url('imag/pattern.jpg') no-repeat top center;
+            background-size: cover;
+
+        }
+        div.DSSinglePlayer{
+            margin: 20px auto 20px auto;
+        }
+        h2{
+            text-align: center;
+            padding: 10px;
+        }
+    
+    
+    
+    
+    </style>
+
+<script type="text/javascript"
+      src="/js/Player.js">
+  </script>
+
+  </head>
+  <body>
+    <div class="ie-panel"><a href="http://windows.microsoft.com/en-US/internet-explorer/"><img src="images/ie8-panel/warning_bar_0000_us.jpg" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."></a></div>
+    <div class="preloader">
+      <div class="preloader-body">
+        <div class="cssload-container">
+          <div class="cssload-speeding-wheel"></div>
+        </div>
+        <p>Cargando...</p>
+      </div>
+    </div>
+    <div class="page">
+      <header class="section page-header">
+        
+        <!--RD Navbar-->
+        <div class="rd-navbar-wrap">
+          <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-static" data-lg-device-layout="rd-navbar-static" data-xl-layout="rd-navbar-static" data-xl-device-layout="rd-navbar-static" data-lg-stick-up-offset="46px" data-xl-stick-up-offset="46px" data-xxl-stick-up-offset="46px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+            <div class="rd-navbar-main-outer">
+              <div class="rd-navbar-main">
+                <!--RD Navbar Panel-->
+                <div class="rd-navbar-panel">
+                  <!--RD Navbar Toggle-->
+                  <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
+                  <!--RD Navbar Brand-->
+                  <div class="rd-navbar-brand">
+                    <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="images/logo-default-200x34.png" alt="" width="100" height="17"/><img class="brand-logo-light" src="images/logo-inverse-200x34.png" alt="" width="100" height="17"/></a>
+                  </div>
+                </div>
+                <div class="rd-navbar-main-element">
+                  <div class="rd-navbar-nav-wrap">
+                    <ul class="rd-navbar-nav">
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">Inicio</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="index.html#transmisioncarpa">Transmisión de la Carpa</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="transmision.html">Transmision GD</a>
+                      </li>
+                      <li class="rd-nav-item active"><a class="rd-nav-link act" href="audios.html">Audios</a>
+                      </li>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="formulariodeinscripcion.html">Inscripción al evento</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <section class="section section-intro context-dark">
+        <div class="intro-bg" style="background: url(images/grancarpa.jpg) no-repeat;background-size:cover;background-position: top center;"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-xl-8 text-center">
+              <h1 class="font-weight-bold wow fadeInLeft">Audios de la Carpa</h1>
+              <p class="intro-description wow fadeInRight">Debajo de este panel encontrarás los audios del Rev. José Benjamín Pérez y del Rev. Miguel Bermúdez Marín ordenados desde Diciembre del 2021 hasta la fecha. William te bendiga</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+<!---Audios para pc-->
+      <section>
+        <center>
+          
+<table class="escritorio">
+
+  <tr>
+
+    <td><div class="DSSinglePlayer" id="player1"></td>
+
+    <td><div class="DSSinglePlayer" id="player2"></td>
+
+    <td><div class="DSSinglePlayer" id="player3"></td>
+
+    </tr>
+
+    <tr>
+
+      <td><div class="DSSinglePlayer" id="player4"></td>
+  
+      <td><div class="DSSinglePlayer" id="player5"></td>
+  
+      <td><div class="DSSinglePlayer" id="player6"></td>
+  
+      </tr>
+
+      <tr>
+
+        <td><div class="DSSinglePlayer" id="player7"></td>
+    
+        <td><div class="DSSinglePlayer" id="player8"></td>
+    
+        <td><div class="DSSinglePlayer" id="player9"></td>
+    
+        </tr>
+
+        <tr>
+
+          <td><div class="DSSinglePlayer" id="player10"></td>
+      
+          <td><div class="DSSinglePlayer" id="player11"></td>
+      
+          <td><div class="DSSinglePlayer" id="player12"></td>
+      
+          </tr>
+
+          <tr>
+
+            <td><div class="DSSinglePlayer" id="player13"></td>
+        
+            <td><div class="DSSinglePlayer" id="player14"></td>
+        
+            <td><div class="DSSinglePlayer" id="player15"></td>
+        
+            </tr>
+
+            <tr>
+
+              <td><div class="DSSinglePlayer" id="player16"></td>
+          
+              <td><div class="DSSinglePlayer" id="player17"></td>
+          
+              <td><div class="DSSinglePlayer" id="player18"></td>
+          
+              </tr>
+
+              <tr>
+
+                <td><div class="DSSinglePlayer" id="player19"></td>
+            
+                <td><div class="DSSinglePlayer" id="player20"></td>
+            
+                <td><div class="DSSinglePlayer" id="player21"></td>
+            
+                </tr>
+
+                <tr>
+
+                  <td><div class="DSSinglePlayer" id="player22"></td>
+              
+                  <td><div class="DSSinglePlayer" id="player23"></td>
+              
+                  <td><div class="DSSinglePlayer" id="player24"></td>
+              
+                  </tr>
+
+                  <tr>
+
+                    <td><div class="DSSinglePlayer" id="player25"></td>
+                
+                    <td><div class="DSSinglePlayer" id="player26"></td>
+                
+                    <td><div class="DSSinglePlayer" id="player27"></td>
+                
+                    </tr>
+
+                    <tr>
+
+                      <td><div class="DSSinglePlayer" id="player28"></td>
+                  
+                      <td><div class="DSSinglePlayer" id="player29"></td>
+                  
+                      <td><div class="DSSinglePlayer" id="player30"></td>
+                  
+                      </tr>
+
+                      <tr>
+
+                        <td><div class="DSSinglePlayer" id="player31"></td>
+                    
+                        <td><div class="DSSinglePlayer" id="player32"></td>
+                    
+                        <td><div class="DSSinglePlayer" id="player33"></td>
+                    
+                        </tr>
+
+                        <tr>
+
+                          <td><div class="DSSinglePlayer" id="player34"></td>
+                      
+                          <td><div class="DSSinglePlayer" id="player35"></td>
+                                            
+                          </tr>
+
+</table>      
+            </center>
+          </section>
+
+<!---Audios para celular-->
+      <section>
+        <center>
+          
+<table class="escritorio">
+
+  <tr>
+
+    <td><div class="DSSinglePlayer" id="player1"></td>
+
+    <td><div class="DSSinglePlayer" id="player2"></td>
+
+    <td><div class="DSSinglePlayer" id="player3"></td>
+
+    </tr>
+
+    <tr>
+
+      <td><div class="DSSinglePlayer" id="player4"></td>
+  
+      <td><div class="DSSinglePlayer" id="player5"></td>
+  
+      <td><div class="DSSinglePlayer" id="player6"></td>
+  
+      </tr>
+
+      <tr>
+
+        <td><div class="DSSinglePlayer" id="player7"></td>
+    
+        <td><div class="DSSinglePlayer" id="player8"></td>
+    
+        <td><div class="DSSinglePlayer" id="player9"></td>
+    
+        </tr>
+
+        <tr>
+
+          <td><div class="DSSinglePlayer" id="player10"></td>
+      
+          <td><div class="DSSinglePlayer" id="player11"></td>
+      
+          <td><div class="DSSinglePlayer" id="player12"></td>
+      
+          </tr>
+
+          <tr>
+
+            <td><div class="DSSinglePlayer" id="player13"></td>
+        
+            <td><div class="DSSinglePlayer" id="player14"></td>
+        
+            <td><div class="DSSinglePlayer" id="player15"></td>
+        
+            </tr>
+
+            <tr>
+
+              <td><div class="DSSinglePlayer" id="player16"></td>
+          
+              <td><div class="DSSinglePlayer" id="player17"></td>
+          
+              <td><div class="DSSinglePlayer" id="player18"></td>
+          
+              </tr>
+
+              <tr>
+
+                <td><div class="DSSinglePlayer" id="player19"></td>
+            
+                <td><div class="DSSinglePlayer" id="player20"></td>
+            
+                <td><div class="DSSinglePlayer" id="player21"></td>
+            
+                </tr>
+
+                <tr>
+
+                  <td><div class="DSSinglePlayer" id="player22"></td>
+              
+                  <td><div class="DSSinglePlayer" id="player23"></td>
+              
+                  <td><div class="DSSinglePlayer" id="player24"></td>
+              
+                  </tr>
+
+                  <tr>
+
+                    <td><div class="DSSinglePlayer" id="player25"></td>
+                
+                    <td><div class="DSSinglePlayer" id="player26"></td>
+                
+                    <td><div class="DSSinglePlayer" id="player27"></td>
+                
+                    </tr>
+
+                    <tr>
+
+                      <td><div class="DSSinglePlayer" id="player28"></td>
+                  
+                      <td><div class="DSSinglePlayer" id="player29"></td>
+                  
+                      <td><div class="DSSinglePlayer" id="player30"></td>
+                  
+                      </tr>
+
+                      <tr>
+
+                        <td><div class="DSSinglePlayer" id="player31"></td>
+                    
+                        <td><div class="DSSinglePlayer" id="player32"></td>
+                    
+                        <td><div class="DSSinglePlayer" id="player33"></td>
+                    
+                        </tr>
+
+                        <tr>
+
+                          <td><div class="DSSinglePlayer" id="player34"></td>
+                      
+                          <td><div class="DSSinglePlayer" id="player35"></td>
+                                            
+                          </tr>
+
+</table>      
+            </center>
+          </section>
+
+<!--Texto Adicional-->
+
+          <section>
+          <center>
+          <br>
+
+        </center>
+    </section>
+    <br>
+    <script src="js/DSSinglePlayer.js" ></script>
+    <script type="text/javascript">
+             $("#player1").MusicPlayer({
+                title: "8 de Diciembre de 2021",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/8 de Diciembre de 2021 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player2").MusicPlayer({
+                title: "12 de Diciembre de 2021",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/12 de Diciembre de 2021 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player3").MusicPlayer({
+                title: "26 de Febrero de 2022",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/26 de Febrero de 2022 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player4").MusicPlayer({
+                title: "28 de Febrero de 2022",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/28 de Febrero - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player5").MusicPlayer({
+                title: "5 de Marzo de 2022",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/5 de Marzo de 2022 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+    
+            $("#player6").MusicPlayer({
+                title: "8 de Marzo de 2022",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/8 de Marzo de 2022 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player7").MusicPlayer({
+                title: "Plática a las maestras",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/19 de Marzo de 2022 - Rev. Benjamín Pérez - Plática a las maestras.mp3",
+                downloadable: "yes"
+            });
+            $("#player8").MusicPlayer({
+                title: "30 de Marzo de 2022",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/30 de Marzo de 2022 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player9").MusicPlayer({
+                title: "El juicio comenzará por la casa de Dios",
+                artist: "Masih ft. Arash AP",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/9 de Abril de 2022 - Rev. Jose Benjamín Pérez - El Juicio comenzará por la casa de Dios.mp3",
+                downloadable: "yes"
+            });
+            $("#player10").MusicPlayer({
+                title: "Las profecías que se están cumpliendo y las que se cumplirán",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/13 de Abril de 2022 - Rev. Jose Benjamín Pérez - Las profecías que se están cumpliendo y las que se cumplirán.mp3",
+                downloadable: "yes"
+            });
+            $("#player11").MusicPlayer({
+                title: "Palabras del Rev. José Benjamín Pérez",
+                artist: "Masih ft. Arash AP",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/16 de Abril de 2022 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player12").MusicPlayer({
+                title: "Tiempo de preparación para nuestra Transformación",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/19 de Abril de 2022 - Rev. Jose Benjamín Pérez - Tiempo de preparación para nuestra Transformación.mp3",
+                downloadable: "yes"
+            });
+            $("#player13").MusicPlayer({
+                title: "El fin del tiempo de preparación",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/2 de Mayo de 2022 - El Fin del Tiempo de preparación.mp3",
+                downloadable: "yes"
+            });
+            $("#player14").MusicPlayer({
+                title: "La Tercera Etapa y nuestra preparación",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/7 de Mayo de 2022 - La Tercera etapa y nuestra preparación.mp3",
+                downloadable: "yes"
+            });
+            $("#player15").MusicPlayer({
+                title: "Saludo a Villa Perú, Huancayo, Perú",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/11 de Mayo de 2022 - Saludo Jose Benjamin Pérez a Villa Peru Huancayo.mp3",
+                downloadable: "yes"
+            });
+            $("#player16").MusicPlayer({
+                title: "Saludo a Villa Perú, Huancayo, Perú",
+                artist: "Rev. Miguel Bermúdez Marín",
+                artwork: "audio/MBM.jpg",
+                track_URL: "audio/11 de Mayo de 2022 - Saludo del Misionero Miguel Bermúdez Marin Villa Peru Huancayo.mp3",
+                downloadable: "yes"
+            });
+            $("#player17").MusicPlayer({
+                title: "Saludo a Durango, México",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/11 de Mayo de 2022 - Saludo Jose Benjamín Perez a Durango Mexico.mp3",
+                downloadable: "yes"
+            });
+            $("#player18").MusicPlayer({
+                title: "Saludo a la Comarca Indigena, Panamá",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/13 de Mayo de 2022 - Saludo a la comarca indígena Panamá - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player19").MusicPlayer({
+                title: "Una separación entre los llamados y los escogidos",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/14 de Mayo de 2022 - Una separación entre los llamados y los escogidos - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player20").MusicPlayer({
+                title: "El Espíritu Santo discerniendo la Palabra",
+                artist: "Masih ft. Arash AP",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/17 de Mayo de 2022 - El Espíritu Santo discerniendo la Palabra - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player21").MusicPlayer({
+                title: "Saludo a reunión de pastores en Thomassique, Haití",
+                artist: "Rev. Miguel Bermúdez Marín",
+                artwork: "audio/MBM.jpg",
+                track_URL: "audio/18 de Mayo de 2022 - Saludo a reunión de pastores en thomassique haiti - Misionero Miguel Bermúdez Marín.mp3",
+                downloadable: "yes"
+            });
+            $("#player22").MusicPlayer({
+                title: "Saludo a reunión de pastores en Thomassique, Haití",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/18 de Mayo de 2022 - Saludo a reunión de pastores en thomassique haiti - Rev. Jose Benjamín Pérez",
+                downloadable: "yes"
+            });
+            $("#player23").MusicPlayer({
+                title: "Saludo a reunión de pastores en Cúcuta",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/18 de Mayo de 2022 - Saludo a reunión de pastores en Cúcuta, Norte de Santander, Colombia.mp3",
+                downloadable: "yes"
+            });
+            $("#player24").MusicPlayer({
+                title: "Saludo a Congreso de Maestras en La Trilla, Venezuela",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/19 de Mayo de 2022 - Saludo a Congreso de Maestras en La Trilla, Venezuela - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player25").MusicPlayer({
+                title: "Saludo a reunión de pastores en Neiva",
+                artist: "Rev. Miguel Bermúdez Marín",
+                artwork: "audio/MBM.jpg",
+                track_URL: "audio/20 de Mayo de 2022 - Saludo a reunión de pastores en Neiva, Huila, Colombia - Misionero Miguel Bermúdez Marín.mp3",
+                downloadable: "yes"
+            });
+            $("#player26").MusicPlayer({
+                title: "Continuación del Estudio Bíblico #204",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/21 de Mayo de 2022 - Continuación del Estudio Bíblico #204 - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player27").MusicPlayer({
+                title: "Palabras de bendición",
+                artist: "Rev. Miguel Bermúdez Marín",
+                artwork: "audio/MBM.jpg",
+                track_URL: "audio/22 de Mayo de 2022 - Palabras de bendición - Misionero Miguel Bermúdez Marín.mp3",
+                downloadable: "yes"
+            });
+            $("#player28").MusicPlayer({
+                title: "Saludo a los hermanos de Cuba",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/24 de Mayo de 2022 - Saludo a los hermanos de Cuba - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player29").MusicPlayer({
+                title: "Saludo a los hermanos reunidos en colonia pedregoso",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/25 de Mayo de 2022 - Saludo a los hermanos reunidos en colonia pedregoso - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player30").MusicPlayer({
+                title: "La adopción de los Hijos de Dios",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/26 de Mayo de 2022 - La adopción de los Hijos de Dios - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player31").MusicPlayer({
+                title: "El Pilar de Fuego guiándonos a la tierra prometida",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/28 de Mayo de 2022 - El Pilar de Fuego guiándonos a la tierra prometida - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player32").MusicPlayer({
+                title: "Preparandonos para ver la Gloria de Dios en medio de Su Iglesia",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/30 de Mayo de 2022 - Preparandonos para ver la Gloria de Dios en medio de Su Iglesia - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player33").MusicPlayer({
+                title: "Quitad la piedra y vereis la Gloria de Dios",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/1 de Junio de 2022 - Quitad la piedra y vereis la Gloria de Dios - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+            $("#player34").MusicPlayer({
+                title: "Saludo a los hermanos de Santa Cruz",
+                artist: "Rev. Miguel Bermúdez Marín",
+                artwork: "audio/MBM.jpg",
+                track_URL: "audio/1 de Junio de 2022 - Saludo a los hermanos de Santa Cruz, Bolivia - Misionero Miguel Bermúdez Marín.mp3",
+                downloadable: "yes"
+            });
+            $("#player35").MusicPlayer({
+                title: "El Tiempo sobrante",
+                artist: "Rev. José Benjamín Pérez",
+                artwork: "audio/JBP.jpg",
+                track_URL: "audio/9 de Junio de 2022 - El Tiempo sobrante - Rev. Jose Benjamín Pérez.mp3",
+                downloadable: "yes"
+            });
+    </script>
+  </body>
+
+    <div class="snackbars" id="form-output-global"></div>
+    <script src="js/core.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
+         <!----<iframe src="https://mensajes-piedra-angular.herokuapp.com/" width="100%"></iframe> <--Buscador Mensajes. Poner luego en otra página-->
